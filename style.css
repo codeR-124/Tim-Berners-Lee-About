@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile{
+    width: 150px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+    background: linear-gradient(white 0%, gray 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-top:100px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+
+#bio{
+    padding: 50px;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    font-size: 42px;
+}
+
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.parallex-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu{
+    list-style:none;
+    font-family:sans-serif;
+    top:10px;
+    right:30px;
+    position:absolute;
+    z-index:10;
+    cursor: pointer;
+}
+
+.links{
+    float:left;
+    color:rgb(78, 74, 74);
+    padding-top:5px;
+    padding-right:9px;
+    padding-left:9px;
+    padding-bottom:5px;
+    font-family:monospace;
+    font-size:20px;
+}
+
+.links:hover{
+    background-color:aliceblue;
+}
